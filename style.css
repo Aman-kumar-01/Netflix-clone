@@ -1,0 +1,567 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #000000;
+    /* background-color: red; */
+    color: #333;
+    z-index: -2;
+
+}
+
+.container {
+    max-width: 1620px;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.sub-container {
+    max-width: 1620px;
+
+    width: 100%;
+    height: 45.75rem;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('netflix-background-img.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.language {
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+.netflix-logo .sign-in {
+    color: white;
+    background-color: red;
+
+}
+
+.netflix-logo .sign-in a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+
+}
+
+.netflix-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 120px;
+
+
+}
+
+.netflix-logo img {
+    width: 150px;
+    height: 77px;
+
+}
+
+.login-button span input {
+    padding: 6px;
+
+}
+
+.login-button span {
+    padding: 6px 20px;
+    border-radius: 5px;
+}
+
+
+.title {
+    font-size: 3.7rem;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    margin-top: 300px;
+    /* margin-bottom: 20px; */
+
+
+}
+
+.title p {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.sub-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sub-title2 {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    margin-top: 32px;
+
+}
+
+
+/* email section  */
+
+.email-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.email-sec span .btn {
+    padding: 14px 50px;
+    border: 1px solid #333;
+    color: white;
+    font-size: 16px;
+    outline: none;
+    border-radius: 20px;
+    margin: 0 10px;
+
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.email-sec span .btn2 {
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+
+
+}
+
+
+
+
+/* ternding now section */
+
+.trending-now {
+    color: white;
+    font-size: 35px;
+    font-weight: 900;
+    margin: 30px 108px 20px;
+   
+}
+
+
+/* lower img  */
+
+
+
+
+.trending {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    margin: 40px 20px 20px;
+}
+
+.slider-wrapper {
+    position: relative;
+    overflow: hidden;
+    padding: 0 40px;
+    margin: 0 100px;
+}
+
+.scroll-container {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding-bottom: 20px;
+}
+
+/* Hide scrollbar */
+.scroll-container::-webkit-scrollbar {
+    display: none;
+}
+
+.scroll-container {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+   
+}
+
+/* Image style */
+.image {
+    height: 270px;
+    width: 130px;
+    margin: 0 10px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+
+.image:hover {
+    transform: scale(1.05);
+}
+
+/* Arrow buttons */
+.slide-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    border: none;
+    color: white;
+    font-size: 2rem;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.slide-btn.left {
+    left: 10px;
+}
+
+.slide-btn.right {
+    right: 10px;
+}
+
+/* Backgrounds */
+.img1 {
+    background-image: url('img1.webp');
+}
+
+.img2 {
+    background-image: url('img2.webp');
+}
+
+.img3 {
+    background-image: url('img3.webp');
+}
+
+.img4 {
+    background-image: url('img4.webp');
+}
+
+.img5 {
+    background-image: url('img5.webp');
+}
+
+.img6 {
+    background-image: url('img6.webp');
+}
+
+.img7 {
+    background-image: url('img7.webp');
+}
+
+.img8 {
+    background-image: url('img8.webp');
+}
+
+.img9 {
+    background-image: url('img9.webp');
+}
+
+.img10 {
+    background-image: url('img10.webp');
+}
+
+
+
+
+
+/* frequency aks question  */
+
+.frequency-questions{
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    margin: 30px 108px 20px;
+}
+
+.question-sec {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 2px 3px;
+  }
+  .question-sec {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 2px 3px;
+  }
+  
+  .question-sec ul {
+    padding: 0;
+  }
+  
+  .question-sec li {
+    list-style-type: none;
+    margin-bottom: 15px;
+  }
+  
+  .question-sec button {
+    width: 100%;
+    padding: 15px;
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    text-align: left;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .question-sec button:hover {
+    background-color: #444;
+  }
+  
+  .question-sec h3 {
+    font-size: 18px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .question-sec .plus {
+    padding: 0;
+    font-size: 45px;
+    font-weight: 600;
+    color: #999;
+  }
+  
+  .ready-to-watch h3 {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 30px 20px 20px;
+    text-align: center;
+  }
+
+
+    /* footer   */
+
+
+    footer {
+       
+        color: #999;
+        padding: 60px 10%;
+        font-size: 14px;
+        margin-top: 20px;
+      }
+      
+      .question-call {
+        margin-bottom: 30px;
+      }
+      
+      .question-call span,
+      .question-call a {
+        color: #999;
+        font-size: 16px;
+        text-decoration: none;
+      }
+      
+      .first-row {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px 0;
+        margin-bottom: 30px;
+      }
+      
+      .first-row span {
+        margin: 5px 0;
+      }
+      
+      .first-row a {
+        color: #999;
+        text-decoration: underline;
+        font-size: 14px;
+      }
+      
+      .first-row a:hover {
+        text-decoration: none;
+      }
+      
+      .copyright{
+        color: white;
+       font-size: 15px;
+        margin-top: 20px;
+        padding: 10px;
+        text-align: center;
+        align-items: center;
+        background-color: #201a1a;
+        
+      }
+      
+      /* Responsive for smaller screens */
+     /* Tablet Devices */
+@media screen and (max-width: 1024px) {
+    .netflix-logo {
+      margin: 0 40px;
+    }
+  
+    .title {
+      font-size: 2.8rem;
+      margin-top: 200px;
+    }
+  
+    .sub-title,
+    .sub-title2 {
+      font-size: 1.2rem;
+    }
+  
+    .email-sec span .btn {
+      padding: 12px 30px;
+    }
+  
+    .slider-wrapper {
+      padding: 0 20px;
+      margin: 0 40px;
+    }
+  
+    .image {
+      width: 110px;
+      height: 230px;
+    }
+  
+    .trending-now,
+    .frequency-que {
+      margin: 30px 40px 20px;
+      font-size: 28px;
+    }
+  }
+  
+  /* Mobile Devices */
+  @media screen and (max-width: 768px) {
+    .netflix-logo {
+      
+      margin: 0 20px;
+      gap: 10px;
+    }
+  
+    .title {
+      font-size: 2.3rem;
+      margin-top: 150px;
+      padding: 0 10px;
+    }
+  
+    .sub-title,
+    .sub-title2 {
+      font-size: 1rem;
+      padding: 0 10px;
+    }
+  
+    .email-sec {
+     
+      gap: 10px;
+      padding: 0 10px;
+    }
+  
+    .email-sec span .btn,
+    .email-sec span .btn2 {
+      width: 100%;
+      padding: 12px;
+    }
+  
+    .slider-wrapper {
+      padding: 0 10px;
+      margin: 0 10px;
+    }
+  
+    .image {
+      width: 100px;
+      height: 180px;
+    }
+  
+    .slide-btn {
+      font-size: 1.5rem;
+      padding: 6px 10px;
+    }
+  
+    .trending-now,
+    .frequency-que {
+      margin: 20px 20px 10px;
+      font-size: 22px;
+    }
+  
+    .question-sec button {
+      padding: 20px;
+      font-size: 14px;
+    }
+  
+    .first-row {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px 0;
+    }
+  }
+  
+ 
+  
+
+
+  /* Extra Small Screens (like small phones) */
+  @media screen and (max-width: 400px) {
+
+    .netflix-logo {
+      margin: 0 10px;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .title {
+      font-size: 1.8rem;
+      margin-top: 120px;
+    }
+  
+    .sub-title,
+    .sub-title2 {
+      font-size: 0.9rem;
+    }
+  .email-sec {
+      flex-direction: column;
+      align-items: center;
+      gap: 5px;
+    }
+    .image {
+      width: 90px;
+      height: 160px;
+    }
+  
+    .first-row {
+      font-size: 12PX;
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    footer {
+      padding: 40px 5%;
+    }
+  }
+  
+      
