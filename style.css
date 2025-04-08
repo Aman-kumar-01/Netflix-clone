@@ -422,151 +422,147 @@ body {
       }
       
       /* Responsive for smaller screens */
-     /* Tablet Devices */
+/* Tablet Devices */
 @media screen and (max-width: 1024px) {
-    .netflix-logo {
-      margin: 0 40px;
-    }
-  
-    .title {
-      font-size: 2.8rem;
-      margin-top: 200px;
-    }
-  
-    .sub-title,
-    .sub-title2 {
-      font-size: 1.2rem;
-    }
-  
-    .email-sec span .btn {
-      padding: 12px 30px;
-    }
-  
-    .slider-wrapper {
-      padding: 0 20px;
-      margin: 0 40px;
-    }
-  
-    .image {
-      width: 110px;
-      height: 230px;
-    }
-  
-    .trending-now,
-    .frequency-que {
-      margin: 30px 40px 20px;
-      font-size: 28px;
-    }
+  .netflix-logo {
+    margin: 0 40px;
   }
-  
-  /* Mobile Devices */
-  @media screen and (max-width: 768px) {
-    .netflix-logo {
-      
-      margin: 0 20px;
-      gap: 10px;
-    }
-  
-    .title {
-      font-size: 2.3rem;
-      margin-top: 150px;
-      padding: 0 10px;
-    }
-  
-    .sub-title,
-    .sub-title2 {
-      font-size: 1rem;
-      padding: 0 10px;
-    }
-  
-    .email-sec {
-     
-      gap: 10px;
-      padding: 0 10px;
-    }
-  
-    .email-sec span .btn,
-    .email-sec span .btn2 {
-      width: 100%;
-      padding: 12px;
-    }
-  
-    .slider-wrapper {
-      padding: 0 10px;
-      margin: 0 10px;
-    }
-  
-    .image {
-      width: 100px;
-      height: 180px;
-    }
-  
-    .slide-btn {
-      font-size: 1.5rem;
-      padding: 6px 10px;
-    }
-  
-    .trending-now,
-    .frequency-que {
-      margin: 20px 20px 10px;
-      font-size: 22px;
-    }
-  
-    .question-sec button {
-      padding: 20px;
-      font-size: 14px;
-    }
-  
-    .first-row {
-      grid-template-columns: repeat(2, 1fr);
-      gap: 10px 0;
-    }
+
+  .title {
+    font-size: 2.8rem;
+    margin-top: 200px;
   }
-  
 
-  /* Extra Small Screens (like small phones) */
-  @media screen and (max-width: 410px) {
-
-    .netflix-logo img{
-      width: 100px;
-      height: 60px;
-    }
-
-    .language{
-      width: 60px;
-      height: 40px;
-    }
-    .login-button span {
-      padding: 6px 4px;
-      border-radius: 5px;
+  .sub-title,
+  .sub-title2 {
+    font-size: 1.2rem;
   }
-    .title {
-      font-size: 1.8rem;
-      margin-top: 120px;
-    }
-  
-    .sub-title,
-    .sub-title2 {
-      font-size: 0.9rem;
-    }
+
+  .email-sec span .btn {
+    padding: 12px 30px;
+  }
+
+  .slider-wrapper {
+    padding: 0 20px;
+    margin: 0 40px;
+  }
+
+  .image {
+    width: 110px;
+    height: 230px;
+  }
+
+  .trending-now,
+  .frequency-questions {
+    margin: 30px 40px 20px;
+    font-size: 28px;
+  }
+}
+
+/* Mobile Devices */
+@media screen and (max-width: 768px) {
+  .netflix-logo {
+    margin: 0 20px;
+    gap: 10px;
+  }
+
+  .title {
+    font-size: 2.3rem;
+    margin-top: 150px;
+    padding: 0 10px;
+  }
+
+  .sub-title,
+  .sub-title2 {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+
   .email-sec {
-      flex-direction: column;
-      align-items: center;
-      gap: 5px;
-    }
-    .image {
-      width: 90px;
-      height: 160px;
-    }
-  
-    .first-row {
-      font-size: 12PX;
-      grid-template-columns: 1fr 1fr;
-    }
-  
-    footer {
-      padding: 40px 5%;
-    }
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 0 10px;
   }
-  
-      
+
+  .email-sec span .btn,
+  .email-sec span .btn2 {
+    width: 100%;
+    padding: 12px;
+  }
+
+  .slider-wrapper {
+    padding: 0 10px;
+    margin: 0 10px;
+  }
+
+  .image {
+    width: 100px;
+    height: 180px;
+  }
+
+  .slide-btn {
+    font-size: 1.5rem;
+    padding: 6px 10px;
+  }
+
+  .trending-now,
+  .frequency-questions {
+    margin: 20px 20px 10px;
+    font-size: 22px;
+  }
+
+  .question-sec button {
+    padding: 20px;
+    font-size: 14px;
+  }
+
+  .first-row {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px 0;
+  }
+}
+
+/* Extra Small Screens (like small phones) */
+@media screen and (max-width: 410px) {
+  .netflix-logo img {
+    width: 100px;
+    height: 60px;
+  }
+
+  .language {
+    width: 60px;
+    height: 40px;
+  }
+
+  .login-button span {
+    padding: 6px 4px;
+    border-radius: 5px;
+  }
+
+  .title {
+    font-size: 1.8rem;
+    margin-top: 120px;
+  }
+
+  .sub-title,
+  .sub-title2 {
+    font-size: 0.9rem;
+  }
+
+  .image {
+    width: 90px;
+    height: 160px;
+  }
+
+  .first-row {
+    font-size: 12px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  footer {
+    padding: 40px 5%;
+  }
+}
+
+
