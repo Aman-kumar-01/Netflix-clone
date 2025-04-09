@@ -424,13 +424,22 @@ body {
       /* Responsive for smaller screens */
 /* Tablet Devices */
 @media screen and (max-width: 1024px) {
+
+  .sub-container {
+    max-width: 1620px;
+    width: 100%;
+    height: 36.75rem;
+    position: relative;
+    overflow: hidden;
+  }
+  
   .netflix-logo {
     margin: 0 40px;
   }
 
   .title {
     font-size: 2.8rem;
-    margin-top: 200px;
+    margin-top: 150px;
   }
 
   .sub-title,
@@ -524,7 +533,16 @@ body {
 }
 
 /* Extra Small Screens (like small phones) */
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 437px) {
+
+  .sub-container {
+    max-width: 1620px;
+    width: 100%;
+    height: 33.75rem;
+    position: relative;
+    overflow: hidden;
+
+  }
   .netflix-logo img {
     width: 100px;
     height: 60px;
